@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+form {
+  background: #5e2217;
+  padding: 25px;
+  border-radius: 15px;
+  width: 330px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+h2 { text-align: center; color: #7e2217; }
+label { display: block; margin-top: 12px; font-weight: bold; }
+input {
+  width: 100%; padding: 8px; margin-top: 4px;
+  border: 2px solid #ccc; border-radius: 8px; box-sizing: border-box;
+}
+input.invalido { border-color: red; background: #ffe6e6; }
+input.valido { border-color: green; }
+.error { color: red; font-size: 13px; display: block; margin-top: 3px; }
+button {
+  width: 100%; margin-top: 18px; padding: 10px;
+  background: white;
+  color: black; 
+border: 2px solid; 
+  border-radius: 8px; font-size: 16px; cursor: pointer;
+}
+#resultado {
+  margin-top: 20px; background: white; color: black;
+  padding: 15px; border-radius: 10px; width: 330px;
+  text-align: center; font-weight: bold; display: none;
+}
